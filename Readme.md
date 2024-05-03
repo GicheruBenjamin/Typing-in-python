@@ -1,1 +1,11 @@
+## Intro
+Python is a dynamic lang and its design is what makes it very flexible.
+The typing module and mypy tool for checking static types make static typing possible.\
+This makes it less possible to push errors on bugs into production code.
 
+## Mypy Tool 
+Mypy is an important tool in checking for static types.
+One goes to the terminal keys mypy and then the path to that file.
+You will get the errors showing what datatype has been violated.
+Test it out.
+I have stated the errors to expect on each file as a comment at the end of each file. 
