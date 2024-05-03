@@ -8,4 +8,7 @@ Mypy is an important tool in checking for static types.
 One goes to the terminal keys mypy and then the path to that file.
 You will get the errors showing what datatype has been violated.
 Test it out.
-I have stated the errors to expect on each file as a comment at the end of each file. 
+I have stated the errors to expect on each file as a comment at the end of each file.
+
+## Typing module
+Typing is a module with all kinds of types that can be used to declare variables, function parameters and return types and class attributes and methods return types.
