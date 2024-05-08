@@ -8,3 +8,5 @@ my_bmi: Sequence = (5.7,56)
 
 #no errors 
 
+my_age: Sequence = 23
+#error here
