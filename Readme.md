@@ -1,4 +1,4 @@
-## Intro
+# Intro
 Python is a dynamic lang and its design is what makes it very flexible.
 The typing module and mypy tool for checking static types make static typing possible.\
 This makes it less possible to push errors on bugs into production code.
