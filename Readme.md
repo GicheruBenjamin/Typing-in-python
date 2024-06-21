@@ -15,3 +15,6 @@ Typing is a module with all kinds of types that can be used to declare variables
 
 ### nom.py
 There are main types used in all prog langs int, float and str 
+
+### opy.py
+There is an optional type . Useful when you don't know the return type of a function or method in class. 
