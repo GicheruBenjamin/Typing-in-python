@@ -12,3 +12,6 @@ I have stated the errors to expect on each file as a comment at the end of each 
 
 ## Typing module
 Typing is a module with all kinds of types that can be used to declare variables, function parameters and return types and class attributes and methods return types.
+
+### nom.py
+There are main types used in all prog langs int, float and str 
