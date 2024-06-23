@@ -20,4 +20,4 @@ There are main types used in all prog langs int, float and str
 There is an optional type . Useful when you don't know the return type of a function or method in class. 
 
 ### call.py 
-There is a callable type. Used in high order functions , callbacks ,
+There is a callable type. Used in high order functions , callbacks and OOP prog.
