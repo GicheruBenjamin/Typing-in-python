@@ -1,10 +1,13 @@
 # Callable is used to represent objects e.g functions
 from typing import Callable
 
-def display_operation_results(x: int, op: Callable[[int], int]) -> None:
-    print(op(x))
+# High order functions
+
+def apply_function(x: int, func: Callable[[int], int]) -> int:
+    return func(x)
 
 def square(x: int) -> int:
     return x * x
 
-display_operation_results(22, square) #output 484
+result = apply_function(5, square)
+print(result)  # Output: 25
