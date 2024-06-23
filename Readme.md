@@ -18,3 +18,6 @@ There are main types used in all prog langs int, float and str
 
 ### opy.py
 There is an optional type . Useful when you don't know the return type of a function or method in class. 
+
+### call.py 
+There is a callable type.
