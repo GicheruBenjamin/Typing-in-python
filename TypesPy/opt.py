@@ -45,3 +45,12 @@ user_data: dict[str, Optional[str]] = {
 }
 
 print(f"Name: {user_data['name']}, Email: {user_data['email']}")  
+
+def MakeGreatFood(food: Optional[str] = None) -> None:
+    if food is not None:
+        print(f"I like {food}.")
+    else:
+        print("I like pizza.")
+
+MakeGreatFood("pizza")
+MakeGreatFood()
