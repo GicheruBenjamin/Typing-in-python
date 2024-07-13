@@ -37,3 +37,5 @@ def my_callback() -> None:
 
 obj = MyClass(my_callback)
 obj.do_something() 
+
+
