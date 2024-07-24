@@ -11,3 +11,5 @@ my_bmi: Sequence = (5.7,56)
 my_age: Sequence = 23
 #error here
 
+my_hobbies: list[Sequence] = ['Coding', 'Sleeping', 'Eating', 23]
+
