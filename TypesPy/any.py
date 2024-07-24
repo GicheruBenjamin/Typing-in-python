@@ -29,7 +29,10 @@ class Event:
     def __init__(self, name: str, no_of_people: int):
         self.name = name
         self.no_of_people = no_of_people
-        
-    def calc_no_of_parties() -> int:
-        return no_of_parties + 1
-    
+        total_parties:int = Event.no_of_parties
+        Event.no_of_parties = total_parties + 1
+
+my_event: Event = Event("Birthday", 10)
+print(Event.no_of_parties)
+my_brothers: list[Any] = [Event("Birthday", 10), Event("Birthday", 10), Event("Birthday", 10)]
+print(Event.no_of_parties)
