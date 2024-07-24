@@ -16,6 +16,20 @@ def add_numbers(x: int, y: int) -> int:
 
 result = add_numbers(1, 2)  
 
-print(result + " is the sum of 1 and 2") # This will cause type error
+#print(result + " is the sum of 1 and 2") # This will cause type error
 
 #Error from add_numbers func
+
+def unknown() -> Any:
+    return lambda: print("I am an unknown function")
+
+unknown()
+class Event:
+    no_of_parties: int = 0
+    def __init__(self, name: str, no_of_people: int):
+        self.name = name
+        self.no_of_people = no_of_people
+        
+    def calc_no_of_parties() -> int:
+        return no_of_parties + 1
+    
