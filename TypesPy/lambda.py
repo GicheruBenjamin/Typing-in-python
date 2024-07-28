@@ -8,3 +8,7 @@ print(eat("pizza"))
 # Can also be used with callable type
 great_food: callable = lambda food: print(f"I like {food}.")
 great_food("pizza") 
+
+
+sleep:any = lambda hr: int: f"I am ging to sleep for {hr} hours." 
+print(sleep())
