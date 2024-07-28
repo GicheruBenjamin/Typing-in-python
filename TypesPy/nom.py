@@ -14,5 +14,12 @@ cho:str = 201
 
 
 #5 errors in this file 2 int, 1 float and 2 str 
+class Girl:
+    def __init__(self,name: str,isBeautiful: bool):
+        self.name = name
+        self.isBeautiful = isBeautiful
+
+myclassmate: Girl = Girl("Annet", True)
+print(f"My classmate is called {myclassmate.name} and if you ask me if she is beautiful I wuld yes it is {myclassmate.isBeautiful}")
 
 
