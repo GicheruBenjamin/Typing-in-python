@@ -13,3 +13,11 @@ my_age: Sequence = 23
 
 my_hobbies: list[Sequence] = ['Coding', 'Sleeping', 'Eating', 23]
 
+class Schoolclass:
+    def __init__(self, name: str, no_of_studs: int) -> any:
+        self.name = name
+        self.no_of_studs = no_of_studs
+    
+        
+    
+
