@@ -13,11 +13,13 @@ my_age: Sequence = 23
 
 my_hobbies: list[Sequence] = ['Coding', 'Sleeping', 'Eating', 23]
 
-class Schoolclass:
-    def __init__(self, name: str, no_of_studs: int) -> any:
+class School:
+    def __init__(self, name: Sequence, form: Sequence[int]) -> None:
         self.name = name
-        self.no_of_studs = no_of_studs
-    
+        self.form = form
+        
+my_school: School = School('Brighton', [1,2,3,4])
+print(f"My school name is {my_school.name} and I am in form {my_school.form[3]}")
         
     
 
