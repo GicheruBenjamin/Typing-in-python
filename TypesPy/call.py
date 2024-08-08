@@ -13,6 +13,14 @@ result = apply_function(5, square)
 print(result)  
 
 
+def project(work: callable):
+    return work
+
+def code() -> str:
+    return "I coded today"
+
+project(code)
+
 #Callbacks
 
 

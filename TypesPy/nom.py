@@ -23,3 +23,7 @@ myclassmate: Girl = Girl("Annet", True)
 print(f"My classmate is called {myclassmate.name} and if you ask me if she is beautiful I wuld yes it is {myclassmate.isBeautiful}")
 
 
+
+
+
+
