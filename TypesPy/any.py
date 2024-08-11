@@ -36,3 +36,21 @@ my_event: Event = Event("Birthday", 10)
 print(Event.no_of_parties)
 my_brothers: list[Any] = [Event("Birthday", 10), Event("Birthday", 10), Event("Birthday", 10)]
 print(Event.no_of_parties)
+
+
+import requests
+
+def fetch() -> dict:
+  """Fetches data from a specified URL and returns it as a dictionary."""
+
+  url = "https://api.example.com/data"  # Replace with your actual URL
+
+  try:
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an exception for error HTTP status codes
+    return response.json()  # Assuming the response is JSON
+  except requests.exceptions.RequestException as e:
+    print(f"Error fetching data: {e}")
+    return None
+
+
