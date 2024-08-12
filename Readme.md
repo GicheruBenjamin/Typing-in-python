@@ -21,3 +21,6 @@ There is an optional type . Useful when you don't know the return type of a func
 
 ### call.py 
 There is a callable type. Used in high order functions , callbacks and OOP prog.Also can be helpful to document lambda functions.
+
+### dict 
+there is a dict type. Used in to show dictionary type.
