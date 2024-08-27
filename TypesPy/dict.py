@@ -15,4 +15,4 @@ people:dict[str,List[str]] = {
     "family": ["dad", "mom"]
 }
 
-print(people["friends"[1]])
+print(people["friends"[1]])   
