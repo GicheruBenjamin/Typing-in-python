@@ -55,6 +55,13 @@ def MakeGreatFood(food: Optional[str] = None) -> None:
 MakeGreatFood("pizza")
 MakeGreatFood()  
 
+def Joy()->None:
+    print("I am joyful")
+def Holyspiritfruit()->Optional:
+    Joy()
+    print("I am the Holy Spirit fruit")
+
+Holyspiritfruit()
 
 
 
