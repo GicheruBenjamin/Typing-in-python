@@ -1,11 +1,20 @@
 
+
+from types import *
 """Main file """
 
 def main():
     print("-----Starting the program-----")
-    r : range = range(10)
-    for i in r:
-        print(i)
+    a = Any(1)
+    b = call(a)
+    c = dict_(b)
+    d = list_(c)
+    e = seq(d)
+    f = str_(e)
+    g = opt(f)
+    h = lambda_(g)
+    i = check_type(h)
+    print(i)
     print("-----Ending the program-----")
 
 
