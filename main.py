@@ -1,6 +1,6 @@
 
 
-from types import *
+from custom_types import * 
 """Main file """
 
 def main():

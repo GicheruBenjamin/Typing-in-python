@@ -2,7 +2,6 @@
 
 ''' This module demonstrates the regular types '''
 
-from typing import int, float, str, bool
 
 def check_type(var):
     try:
